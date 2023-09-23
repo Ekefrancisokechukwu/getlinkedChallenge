@@ -17,5 +17,5 @@ export const getTimeLeft = () => {
 
 export const textAnimation = {
   from: { opacity: 0, y: "30%" },
-  to: { opacity: 1, y: 0, transition: { stiffness: 30 ,ease} },
+  to: { opacity: 1, y: 0, transition: { stiffness: 30 ,ease:"easeIn"} },
 };
