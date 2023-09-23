@@ -100,6 +100,10 @@
     background: linear-gradient(270deg, #903aff 0%, #d434fe 100%);
   }
 
+  .herobg {
+    background-image: url("/src/assets/images/metrix 1.png");
+  }
+
   /* AWARD CARD STYLE START */
   .award-card {
     @apply lg:w-[212px] md:w-[199px]   relative text-center cursor-default p-3
