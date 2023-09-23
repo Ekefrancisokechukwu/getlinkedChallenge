@@ -8,7 +8,6 @@ import { ErrorElement } from "./components";
 import { loader as registerLoader } from "./pages/Register";
 
 // ACTIONS
-// import { action as registerAction } from "./pages/Register";
 import { action as contactAction } from "./pages/Contact";
 
 const router = createBrowserRouter([
@@ -27,7 +26,6 @@ const router = createBrowserRouter([
         element: <Register />,
         errorElement: <ErrorElement />,
         loader: registerLoader,
-        // action: registerAction,
       },
       {
         path: "/contact",
