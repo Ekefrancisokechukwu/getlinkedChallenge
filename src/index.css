@@ -100,9 +100,7 @@
     background: linear-gradient(270deg, #903aff 0%, #d434fe 100%);
   }
 
-  .herobg {
-    background-image: url("/src/assets/images/metrix 1.png");
-  }
+  
 
   /* AWARD CARD STYLE START */
   .award-card {
@@ -199,5 +197,11 @@
     -webkit-mask-composite: destination-out;
     mask-composite: exclude;
     border: 1px solid transparent;
+  }
+}
+
+@media and (min-width:768px){
+  .herobg {
+    background-image: url("/src/assets/images/metrix 1.png");
   }
 }
