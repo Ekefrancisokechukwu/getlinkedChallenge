@@ -61,7 +61,7 @@ const Hero = () => {
         </span>
       </div>
 
-      <div className=" md:bg-hero-pattern  bg-right bg-no-repeat  grid lg:grid-cols-2 grid-cols-1 layout-center items-center mt-3">
+      <div className=" herobg bg-right bg-no-repeat  grid lg:grid-cols-2 grid-cols-1 layout-center items-center mt-3">
         <div className="lg:pl-16  px-10 sm:text-start text-center">
           <div className=" xl:w-[722px] lg:w-[690px] relative ">
             <h1 className="leading-snug hero-head xl:text-[80px] sm:text-[72px] text-[55px] relative mb:text-[32px]   font-bold">
