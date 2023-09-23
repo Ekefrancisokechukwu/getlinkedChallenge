@@ -187,7 +187,7 @@ const Register = () => {
                     );
                   })}
                 </select>
-                {error?.category && (
+                {error?.group_size && (
                   <p className="absolute first-letter:capitalize -bottom-6 left-0 text-red-600 text-[12px]">
                     group size may not be empty
                   </p>
