@@ -1,4 +1,5 @@
 import Accordion from "./Accordion";
+import {motion} from "framer-motion"
 
 // IMAGES
 import img1 from "../assets/images/thought.png";
@@ -23,14 +24,18 @@ const FaqsSection = () => {
       <div className="max-w-[1200px] gap-16 grid lg:grid-cols-2 grid-cols-1 mx-auto  items-center">
         <div>
           <div className="sm:text-start relative text-center">
-            <h1 className="primary-heading">
+            <motion.h1  variants={textAnimation}
+            initial="from"
+            whileInView="to" className="primary-heading">
               Frequently Ask <span>Question</span>
-            </h1>
+            </motion.h1>
 
-            <p className="mt-[16px]">
+            <motion.p  variants={textAnimation}
+            initial="from"
+            whileInView="to" className="mt-[16px]">
               We got answers to the questions that you might want to ask about
               getlinked Hackathon 1.0
-            </p>
+            </motion.p>
           </div>
 
           <Accordion />
