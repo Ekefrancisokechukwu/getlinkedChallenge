@@ -47,7 +47,7 @@ const Register = () => {
 
   return (
     <>
-      <RegisterSucces isSubmited={isSubmited} setIsSubmited={setIsSubmited} />
+      <RegisterSucces isSubmited={isSubmited}/>
 
       <main className="bg-[#150E28] relative z-10 overflow-clip  sm:px-20 px-10 py-14 overflow-x-clip">
         <div>
