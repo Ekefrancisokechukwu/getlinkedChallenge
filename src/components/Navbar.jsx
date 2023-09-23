@@ -33,7 +33,7 @@ const Navbar = () => {
 
         <li className="ml-10">
           <NavLink
-            to={"/register"}
+            to="/register"
             className={({ isActive }) =>
               isActive ? "gradient-border-mask" : "btn-primary"
             }
