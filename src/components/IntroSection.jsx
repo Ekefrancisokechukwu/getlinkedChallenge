@@ -2,6 +2,8 @@ import img1 from "../assets/images/big idea.png";
 import img2 from "../assets/images/arrow.png";
 import star1 from "../assets/images/sata gra.png";
 import star2 from "../assets/images/star pu.png";
+import { motion } from "framer-motion";
+
 
 const IntroSection = () => {
   return (
@@ -25,22 +27,32 @@ const IntroSection = () => {
         </div>
 
         <div className="sm:text-start text-center relative">
-          <h1 className="primary-heading background-star">
+           <motion.h1
+            initial={{ y: "30%" }}
+            whileInView={{ y: 0 }}
+            transition={{ stiffness: 30 }}
+            className="primary-heading background-star"
+          >
             Introduction to getlinked <span>tech Hackathon 1.0</span>
-          </h1>
+          </motion.h1>
           <img
             src={star2}
             alt="star vector"
             className="absolute md:w-[30px]  md:h-[36px] w-[11px] h-[13px] top-[1.5rem] md:right-[-1rem]   right-2"
           />
-          <p className="mobile_lg:text-[14px] mt-2">
+          <motion.p
+            initial={{ y: "30%" }}
+            whileInView={{ y: 0 }}
+            transition={{ stiffness: 30 }}
+            className="mobile_lg:text-[14px] mt-2 leading-[27.5px]"
+          >
             Our tech hackathon is a melting pot of visionaries, and its purpose
             is as clear as day: to shape the future. Whether you're a coding
             genius, a design maverick, or a concept wizard, you'll have the
             chance to transform your ideas into reality. Solving real-world
             problems, pushing the boundaries of technology, and creating
             solutions that can change the world, that's what we're all about!
-          </p>
+          </motion.p>
         </div>
       </div>
     </section>
