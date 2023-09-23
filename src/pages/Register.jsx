@@ -33,10 +33,10 @@ const Register = () => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
     const data = Object.fromEntries(formData);
+      e.currentTarget.reset();
     try {
       const response = await customFetch.post("/hackathon/registration", data);
       setIsSubmited(true);
-      e.currentTarget.reset();
       setIsloading(false);
       return response.data;
     } catch (error) {
