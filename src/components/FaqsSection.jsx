@@ -1,5 +1,7 @@
 import Accordion from "./Accordion";
 import {motion} from "framer-motion"
+import { textAnimation } from "../../utils/helper";
+
 
 // IMAGES
 import img1 from "../assets/images/thought.png";
