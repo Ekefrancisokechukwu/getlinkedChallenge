@@ -1,7 +1,8 @@
 import congrate from "../assets/images/congratulation.png";
 import wink from "../assets/images/wink.png";
+import { Link } from "react-router-dom";
 
-const RegisterSucces = ({ isSubmited, setIsSubmited }) => {
+const RegisterSucces = ({ isSubmited }) => {
   return (
     <div
       className={`fixed z-[70] overflow-y-scroll w-full grid place-items-center
@@ -27,12 +28,12 @@ const RegisterSucces = ({ isSubmited, setIsSubmited }) => {
             className="justify-self-end align-baseline"
           />
         </div>
-        <button
-          onClick={() => setIsSubmited(false)}
+        <Link
+          to='/'
           className="btn-primary w-full mt-3 block"
         >
           back
-        </button>
+        </Link>
       </div>
     </div>
   );
