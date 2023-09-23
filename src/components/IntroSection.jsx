@@ -3,6 +3,8 @@ import img2 from "../assets/images/arrow.png";
 import star1 from "../assets/images/sata gra.png";
 import star2 from "../assets/images/star pu.png";
 import { motion } from "framer-motion";
+import { textAnimation } from "../../utils/helper";
+
 
 
 const IntroSection = () => {
@@ -28,9 +30,9 @@ const IntroSection = () => {
 
         <div className="sm:text-start text-center relative">
            <motion.h1
-            initial={{ y: "30%" }}
-            whileInView={{ y: 0 }}
-            transition={{ stiffness: 30 }}
+             variants={textAnimation}
+            initial="from"
+            whileInView="to"
             className="primary-heading background-star"
           >
             Introduction to getlinked <span>tech Hackathon 1.0</span>
@@ -41,9 +43,9 @@ const IntroSection = () => {
             className="absolute md:w-[30px]  md:h-[36px] w-[11px] h-[13px] top-[1.5rem] md:right-[-1rem]   right-2"
           />
           <motion.p
-            initial={{ y: "30%" }}
-            whileInView={{ y: 0 }}
-            transition={{ stiffness: 30 }}
+            variants={textAnimation}
+            initial="from"
+            whileInView="to"
             className="mobile_lg:text-[14px] mt-2 leading-[27.5px]"
           >
             Our tech hackathon is a melting pot of visionaries, and its purpose
