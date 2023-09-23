@@ -12,9 +12,10 @@ export const getTimeLeft = () => {
     seconds: seconds < 10 ? `0${seconds}` : seconds,
   };
 };
+
 // animation contorl 
 
 export const textAnimation = {
-  from: { opacity: 0, y: "30%" },
-  to: { opacity: 1, y: 0, transition: { stiffness: 30 } },
+  from: { opacity: 0, y: "50%" },
+  to: { opacity: 1, y: 0, transition: { stiffness: 30 ,ease} },
 };
