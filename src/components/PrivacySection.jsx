@@ -114,7 +114,7 @@ const PrivacySection = () => {
           </div>
         </div>
 
-        <div className=" bg-no-repeat bg-security-pattern relative sm:bg-[length:30rem] bg-[length:249px] lg:bg-right-top md:bg-center bg-right-top">
+        <div className=" bg-no-repeat bg-security relative sm:bg-[length:30rem] bg-[length:249px] lg:bg-right-top md:bg-center bg-right-top">
           <div>
             <img src={key} alt="key vector" />
           </div>
