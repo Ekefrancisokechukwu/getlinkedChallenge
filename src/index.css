@@ -74,6 +74,10 @@
     -webkit-text-fill-color: transparent;
   }
 
+   .bg-security {
+    background-image: url("/src/assets/images/Vector.png");
+  }
+
   .countdown {
     @apply sm:text-[64px] text-[48px];
     font-family: "Unica One", cursive;
