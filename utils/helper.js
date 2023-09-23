@@ -1,4 +1,4 @@
-const TARGET_TIME = new Date(2023, 8, 27, 11, 30, 0);
+const TARGET_TIME = new Date(2023, 8, 26, 10, 10, 0);
 
 export const getTimeLeft = () => {
   const totalTimeLeft = TARGET_TIME - new Date();
