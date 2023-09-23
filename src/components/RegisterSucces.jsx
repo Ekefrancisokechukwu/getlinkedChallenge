@@ -18,7 +18,7 @@ const RegisterSucces = ({ isSubmited, setIsSubmited }) => {
           Congratulations you have successfully Registered!
         </h2>
         <div className="mt-3 flex justify-center items-center">
-          <p className="sm:w-[240px] mb:text-[12px] ">
+          <p className="sm:w-[250px] mb:text-[12px] ">
             Yes, it was easy and you did it! check your mail box for next step
           </p>
           <img
