@@ -18,11 +18,11 @@ export const links = [
   },
   {
     pathName: "faqs",
-    path: "/#faqs",
+    path: "#faqs",
   },
   {
     pathName: "contact",
-    path: "/contact",
+    path: "contact",
   },
 ];
 
