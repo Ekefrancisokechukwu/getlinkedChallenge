@@ -1,5 +1,7 @@
 import { NavLink } from "react-router-dom";
 import Countdown from "./Countdown";
+import { motion } from "framer-motion";
+
 
 // IMPORT IMAGES ///
 import heroman from "../assets/images/hero_man.png";
@@ -108,15 +110,29 @@ const Hero = () => {
         </div>
 
         <div className="relative  justify-self-center">
-          <div className="lg:w-auto sm:w-[30rem] w-auto">
+          <motion.div  
+            initial={{ y: "60%" }}
+            animate={{ y: 0 }}
+            transition={{
+              duration: 0.7,
+              stiffness: 20,
+              ease: "easeIn",className="lg:w-auto sm:w-[30rem] w-auto">
             <img
               src={heroman}
               alt="hero man"
               className="w-full h-full object-cover"
             />
-          </div>
+          </motion.div>
 
-          <img
+         <motion.img
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{
+              duration: 0.7,
+              stiffness: 20,
+              delay: 0.6,
+              ease: "easeIn",
+            }}
             src={vector}
             alt="vector"
             className="absolute -top-4 left-1/2 lg:w-[40rem] sm:w-[20rem] w-[20rem] -translate-x-1/2"
