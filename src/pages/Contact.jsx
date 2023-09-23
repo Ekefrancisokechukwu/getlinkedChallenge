@@ -18,14 +18,12 @@ import { toast } from "react-toastify";
 export const action = async ({ request }) => {
   const formData = await request.formData();
   const data = Object.fromEntries(formData);
-  // const values = [...formData.values()];
   try {
     const response = await customFetch.post("/hackathon/contact-form", data);
     toast.success("Message sent succesfuly");
-    console.log(request);
     return response.data;
   } catch (error) {
-    console.log(error.response.data);
+    toast.error(error.response.message);
     return error.response.data;
   }
 };
