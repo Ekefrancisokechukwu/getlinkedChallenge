@@ -203,7 +203,7 @@ const Register = () => {
                 name="privacy_poclicy_accepted"
                 required
                 id="privacy"
-                className="bg-transparent peer checked:bg-pink appearance-none w-4 h-4  border  rounded-sm "
+                className="bg-transparent peer flex-shrink-0 checked:bg-pink appearance-none w-4 h-4  border  rounded-sm "
               />
               <label htmlFor="privacy" className="text-[12px]  relative ">
                 I agreed with the event terms and conditions and privacy policy
