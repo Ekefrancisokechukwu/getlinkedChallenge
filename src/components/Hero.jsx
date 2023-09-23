@@ -116,7 +116,9 @@ const Hero = () => {
             transition={{
               duration: 0.7,
               stiffness: 20,
-              ease: "easeIn",className="lg:w-auto sm:w-[30rem] w-auto">
+              ease: "easeIn",
+            }}
+            className="lg:w-auto sm:w-[30rem] w-auto">
             <img
               src={heroman}
               alt="hero man"
