@@ -30,7 +30,7 @@ const RegisterSucces = ({ isSubmited }) => {
         </div>
         <Link
           to='/'
-          className="btn-primary w-full mt-3 block"
+          className="btn-primary grid place-items-center w-full mt-3 block"
         >
           back
         </Link>
