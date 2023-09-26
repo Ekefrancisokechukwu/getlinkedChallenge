@@ -65,7 +65,7 @@ const Hero = () => {
 
       <div className=" herobg bg-right bg-no-repeat  grid lg:grid-cols-2 grid-cols-1 layout-center items-center mt-3">
         <div className="lg:pl-16  px-10 sm:text-start text-center">
-          <div className=" xl:w-[722px] lg:w-[690px] relative ">
+          <div className=" xl:w-[722px] lg:w-[690px] relative mb:mt-8">
             <h1 className="leading-snug hero-head xl:text-[80px] sm:text-[72px] text-[55px] relative mb:text-[32px]   font-bold">
               getlinked{" "}
               <span className="relative">
@@ -73,7 +73,7 @@ const Hero = () => {
                 <img
                   src={lightbulb}
                   alt="spark vector"
-                  className="absolute tablet:-top-[4rem] top-[-1rem] right-10 xl:w-auto w-[30px] :top-5"
+                  className="absolute tablet:-top-[4rem] top-[-1rem] mb:right-7 mb:-top-[1.4rem] right-10 xl:w-auto w-[20px] :top-5"
                 />
               </span>
               <span className="flex items-center mb:justify-center gap-3">
