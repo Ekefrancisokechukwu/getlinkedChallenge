@@ -19,3 +19,18 @@ export const textAnimation = {
   from: { opacity: 0, y: "30%" },
   to: { opacity: 1, y: 0, transition: { stiffness: 30 ,ease:"easeIn"} },
 };
+
+
+// group size options 
+
+export const generatedAmountOption = (number) => {
+  return Array.from({ length: number }, (_, index) => {
+    const amount = index + 1;
+
+    return (
+      <option key={amount} value={amount}>
+        {amount}
+      </option>
+    );
+  });
+};
