@@ -21,16 +21,4 @@ export const textAnimation = {
 };
 
 
-// group size options 
 
-export const generatedAmountOption = (number) => {
-  return Array.from({ length: number }, (_, index) => {
-    const amount = index + 1;
-
-    return (
-      <option key={amount} value={amount}>
-        {amount}
-      </option>
-    );
-  });
-};
