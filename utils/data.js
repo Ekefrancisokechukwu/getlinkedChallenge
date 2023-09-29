@@ -17,8 +17,8 @@ export const links = [
     path: "/",
   },
   {
-    pathName: "faqs",
-    path: "#FAQs",
+    pathName: "FAQs",
+    path: "#faqs",
   },
   {
     pathName: "contact",
